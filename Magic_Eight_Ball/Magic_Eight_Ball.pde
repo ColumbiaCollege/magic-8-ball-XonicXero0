@@ -19,6 +19,7 @@ void draw() {
   int i=int(random(0, 8)); 
 
   //black part of the ball
+  strokeWeight(1);
   fill(#242422);
   ellipse(500, 300, 250, 250);
 
@@ -49,8 +50,9 @@ void draw() {
 
     //answers
     textSize(20);
-    fill(0);
+    fill(240);
     text (RA[i], 500, 300);
+
   }
 }
 
