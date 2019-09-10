@@ -50,7 +50,7 @@ void draw() {
 
     //answers
     textSize(20);
-    fill(240);
+    fill(170);
     text (RA[i], 500, 300);
 
   }
